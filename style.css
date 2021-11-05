@@ -2,9 +2,6 @@ body {
     background-color: rgb(41, 41, 41);
     color: #FFBE40;
     font-family: monospace;
-    text-align: center;
-    font-weight: 900;
-    font-size: 20px;
 }
 @media screen and (max-width: 480px) {
 img {
@@ -14,6 +11,11 @@ img {
     transform: translate(-50%, -50%);
     width: 100%;
 }
+body {
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+}
 }
 @media screen and (min-width: 480px) {
     img {
@@ -22,5 +24,9 @@ img {
         left: 50%;
         transform: translate(-50%, -50%);
         height: 100%;
+    }
+    body {
+        font-weight: 900;
+        font-size: 20px;
     }
   }
